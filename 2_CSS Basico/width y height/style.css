@@ -1,0 +1,8 @@
+div {
+  background-color: red;
+  width: 300px; /*Ancho*/
+  height: 30px; /*Alto*/
+}
+form {
+  text-align: center;
+}

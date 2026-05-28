@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  color: white;
+}
+.card {
+  background: rgb(17, 75, 96);
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px 1px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.card_title {
+  padding-top: 10px;
+  font-size: 22px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card_description {
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.card_content {
+  font-size: 9px;
+  padding: 20px;
+  text-align: justify;
+}
+.perfil_image {
+  width: 100px;
+  border-top-left-radius: 50%;
+  border-radius: 80%;
+  height: 100px;
+  padding: 20px;
+  padding-bottom: 0;
+}

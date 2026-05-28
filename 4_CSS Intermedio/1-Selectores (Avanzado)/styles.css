@@ -1,0 +1,26 @@
+/*Con atributos*/
+
+img[src^=/*Termina con */"OIP"] {
+  width: 400px;
+}
+img[src$=/*Empieza con */"OIP"] {
+  width: 20px;
+}
+/*Hijos y Nietos*/
+ul span /*Nieto*/ {
+  color: green;
+}
+
+ul > span /*Hijo*/ {
+  color: paleturquoise;
+}
+/*Selector hermano general*/
+
+h1 ~ p {
+  color: red;
+}
+
+/*Selector hermano adyacente*/
+h1 + p {
+  color: blue;
+}

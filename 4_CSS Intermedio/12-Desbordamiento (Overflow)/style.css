@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+.overflow {
+  border: 1px solid black;
+  background-color: white;
+  color: red;
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  font-size: 30px;
+  overflow-y: auto;
+}

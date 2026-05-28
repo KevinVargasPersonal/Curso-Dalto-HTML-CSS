@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: gray;
+}
+div,
+body {
+  box-sizing: border-box;
+}
+.flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px;
+  align-items: center;
+  border: 2px solid black;
+  height: 300px;
+}
+.flex-item {
+  background-color: #911;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  direction: rtl;
+  /*con esta propiedad indicamos el espacio disponible que ocupará 🔽*/
+  /* flex-grow: 2; */
+  /*con esta propiedad indicamos cuanto se encogerá en comparacion a los otros item 🔽*/
+  /* flex-shrink: 1; */
+  /*con esta propiedad indicamos cuanto es el tamaño minimo que debe tener antes de realizar el wrap 🔽*/
+  /* flex-basis: 100px; */
+  /*con esta propiedad abrebiamos 1.flex-frow 2.flex-shrink 3.flex-basis 🔽*/
+  flex: 1 1 100px;
+}
+.flex-item:nth-child(2n) {
+  background-color: rgb(231, 101, 101);
+  /* flex-grow: 1; */
+  /* flex-shrink: 3; */
+}
+.flex-item:last-child {
+  background-color: black;
+  /* flex-grow: 7; */
+  align-self: stretch;
+}

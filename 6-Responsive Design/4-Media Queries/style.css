@@ -1,0 +1,17 @@
+* {
+  font-family: sans-serif;
+}
+
+.main-navbar {
+  background-color: aqua;
+}
+
+.main-navbar ul {
+  display: flex;
+}
+.main-navbar li {
+  list-style: none;
+}
+.main-navbar a {
+  color: white;
+}

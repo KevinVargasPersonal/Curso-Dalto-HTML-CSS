@@ -1,0 +1,11 @@
+body {
+  color: brown;
+  font-family: sans-serif;
+}
+h1 {
+  color: inherit; /*Para heredar*/
+  color: initial; /*Para no heredar*/
+}
+p {
+  color: blue;
+}

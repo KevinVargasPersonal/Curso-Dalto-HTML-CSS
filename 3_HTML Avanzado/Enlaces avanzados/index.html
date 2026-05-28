@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Formulario de contacto</h2>
+      <fieldset>
+        <legend>INFORMACION BÁSICA</legend>
+        <!-- SIMPLE INPUTS-->
+        <div class="form_input">
+          <label>Nombre <input type="text" placeholder="Jason Blade" /></label>
+        </div>
+        <div class="form_input">
+          <label
+            >Email<input type="email" placeholder="ejemplo@email.com"
+          /></label>
+        </div>
+        <div class="form_input">
+          <label
+            >Asunto<input type="text" placeholder="El asunto de tu mensaje"
+          /></label>
+        </div>
+      </fieldset>
+
+      <!-- SELECT Y OPTION-->
+      <div class="form_input">
+        <label
+          >Tipo de usuario
+          <select name="type-of-user">
+            <option value="user-1">Seguidor/a</option>
+            <option value="user-2">Empresa</option>
+            <option value="user-3">Otros...</option>
+          </select>
+        </label>
+      </div>
+
+      <!--Select Option-->
+      <div class="form_input">
+        <label
+          >Referente
+          <input list="referente" name="referente" />
+          <datalist id="referente" name="type-of-user">
+            <option value="Auncio">Publicidad en redes sociales</option>
+            <option value="Amigos">Personas conocidas</option>
+            <option value="Otros...">Diferentes opciones</option>
+          </datalist>
+        </label>
+      </div>
+
+      <div class="form_input">
+        <label
+          >Mensaje<textarea
+            rows="5"
+            placeholder="Deja tu mensaje..."
+          ></textarea>
+        </label>
+      </div>
+      <div class="form_input">
+        <label>
+          Acepto los
+          <a
+            href="terminosycondicion.html"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+            >términos y condiciones</a
+          >
+          <input class="check" type="checkbox"
+        /></label>
+      </div>
+    </form>
+  </body>
+</html>
