@@ -2,17 +2,20 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
+
 .grid-container{
     display: grid;
-    grid-template-columns: 100px 200px 20%;
-    grid-template-rows: 400px 200px;
+    height: 80vh;
+    /* grid-template-columns: repeat(3, 1fr) minmax(300px, 700px);*/
+    grid-template-columns: repeat(2, minmax(50px, 150px));
+    grid-template-rows: 200px 200px;
 }
+
 .grid-item{
     background-color: #48e;
     margin: 10px;
     padding: 10px;
     font-size: 40px;
     color: #fff;
-    width: 40%;
     display: inline-block;
 }
