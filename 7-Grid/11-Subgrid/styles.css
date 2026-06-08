@@ -1,0 +1,37 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  border: 2px solid #000;
+  gap: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+.grid-item {
+  background-color: #48e;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+}
+.grid-item:first-child {
+  background-color: transparent;
+  grid-area: 1/2 / span 2 / span 2;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  padding: 0;
+  gap: 10px;
+}
+.grid-item:hover {
+  opacity: 0.6;
+}
+.subgrid-item {
+  background-color: red;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+}
