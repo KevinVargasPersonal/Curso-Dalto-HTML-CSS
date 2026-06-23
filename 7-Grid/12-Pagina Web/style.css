@@ -250,3 +250,9 @@ h1 {
 /* ------------- PORTFOLIO QUERIES ------------- */
 
 /* ------------- PORTFOLIO END ------------- */
+
+@container portfolio (min-width: 56.25rem) {
+  .portfolio__project-container {
+    display: grid;
+  }
+}
