@@ -254,8 +254,6 @@ h1 {
 }
 /* ------------- PORTFOLIO QUERIES ------------- */
 
-/* ------------- PORTFOLIO END ------------- */
-
 @container portfolio (min-width: 56.25rem) {
   .portfolio__project-container {
     display: grid;
@@ -281,4 +279,30 @@ h1 {
   .portfolio__project:last-child {
     grid-column: span 4;
   }
+}
+
+/* ------------- PORTFOLIO END ------------- */
+
+/* ------------- CONTACT SECTION ------------- */
+
+.form {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__form {
+  flex: 1;
+  padding: 12px;
+  max-width: 600px;
+}
+.form__input-container :is(input, textarea) {
+  width: 100%;
+  padding: 9px 6px;
+  font-size: 16px;
+  margin: 4px;
+  border: none;
+  box-shadow: 2px 2px 3px #0003;
 }
